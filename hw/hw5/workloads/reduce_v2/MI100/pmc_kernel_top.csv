@@ -1,0 +1,2 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"reduce_avoid_bank_conflicts(unsigned long long*, unsigned long long*, int) [clone .kd]",1,1134880.0,1134880.0,1134880.0,100.0

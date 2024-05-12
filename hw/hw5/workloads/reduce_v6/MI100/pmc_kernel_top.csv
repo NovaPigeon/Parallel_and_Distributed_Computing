@@ -1,0 +1,2 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"reduce_algorithm_cascading(unsigned long long*, unsigned long long*, int) [clone .kd]",1,990720.0,990720.0,990720.0,100.0

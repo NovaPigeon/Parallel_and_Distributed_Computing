@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID
+0,"reduce_use_warp_shuffles(unsigned long long*, unsigned long long*, int) [clone .kd]",2

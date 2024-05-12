@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,SQ_INSTS_SMEM,SQ_INST_LEVEL_SMEM,SQ_ACCUM_PREV_HIRES,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_avoid_divergent_branching(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,1487517,1487517,134217728,256,2048,0,8,8,16,64,0x0,0x7f798e892f80,4194304,2294358,294227592,2559423376537123,2559436561843475,2559436563073395,2559423385575823

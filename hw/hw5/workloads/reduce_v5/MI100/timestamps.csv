@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_complete_unroll(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,2702662,2702662,67108864,256,2048,0,12,12,16,64,0x0,0x7f262d51f080,2959124205645541,2959124205672865,2959124206667106,2959124206742372

@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,GRBM_COUNT,GRBM_GUI_ACTIVE,SQ_WAVES,SQ_IFETCH,SQ_IFETCH_LEVEL,SQ_ACCUM_PREV_HIRES,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_complete_unroll(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,2698331,2698331,67108864,256,2048,0,12,12,16,64,0x0,0x7fd17fc27080,1488186,1488186,1048576,14680064,1851468,236912412,2959109654453692,2959124205672865,2959124206667106,2959109663271000

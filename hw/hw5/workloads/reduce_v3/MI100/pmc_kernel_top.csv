@@ -1,0 +1,2 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"reduce_first_add_during_load(unsigned long long*, unsigned long long*, int) [clone .kd]",1,948001.0,948001.0,948001.0,100.0

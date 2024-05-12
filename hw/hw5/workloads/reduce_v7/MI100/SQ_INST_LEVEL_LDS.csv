@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,SQ_INSTS_LDS,SQ_INST_LEVEL_LDS,SQ_ACCUM_PREV_HIRES,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_use_warp_shuffles(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,1514461,1514461,67108864,256,2048,0,12,12,16,64,0x0,0x7efdbf893100,6029312,2391973,306100668,2559525737559264,2559539634915674,2559539635864633,2559525746272039

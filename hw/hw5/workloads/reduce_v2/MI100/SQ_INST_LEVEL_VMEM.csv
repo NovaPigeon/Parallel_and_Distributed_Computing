@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,SQ_INSTS_VMEM,SQ_INST_LEVEL_VMEM,SQ_ACCUM_PREV_HIRES,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_avoid_bank_conflicts(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,1492210,1492210,134217728,256,2048,0,8,8,16,64,0x0,0x7f33a5122fc0,2621440,12827611,1642427635,2559441084806359,2559453640401107,2559453641535987,2559441093677873

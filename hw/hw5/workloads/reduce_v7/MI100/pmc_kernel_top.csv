@@ -1,0 +1,2 @@
+Kernel_Name,Count,Sum(ns),Mean(ns),Median(ns),Pct
+"reduce_use_warp_shuffles(unsigned long long*, unsigned long long*, int) [clone .kd]",1,948959.0,948959.0,948959.0,100.0

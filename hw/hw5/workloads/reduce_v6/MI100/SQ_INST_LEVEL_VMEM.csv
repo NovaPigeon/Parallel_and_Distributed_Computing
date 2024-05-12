@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,SQ_INSTS_VMEM,SQ_INST_LEVEL_VMEM,SQ_ACCUM_PREV_HIRES,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_algorithm_cascading(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,2710690,2710690,67108864,256,2048,0,12,12,16,64,0x0,0x7f85236370c0,7864320,22640655,2897786222,2959861055561502,2959873752082232,2959873753072952,2959861064310490

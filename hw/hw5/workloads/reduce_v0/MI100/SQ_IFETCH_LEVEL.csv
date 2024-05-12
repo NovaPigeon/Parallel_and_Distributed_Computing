@@ -1,0 +1,2 @@
+Dispatch_ID,Kernel_Name,GPU_ID,queue-id,queue-index,pid,tid,Grid_Size,Workgroup_Size,LDS_Per_Workgroup,Scratch_Per_Workitem,Arch_VGPR,Accum_VGPR,SGPR,wave_size,sig,obj,GRBM_COUNT,GRBM_GUI_ACTIVE,SQ_WAVES,SQ_IFETCH,SQ_IFETCH_LEVEL,SQ_ACCUM_PREV_HIRES,DispatchNs,Start_Timestamp,End_Timestamp,CompleteNs
+0,"reduce_baseline(unsigned long long*, unsigned long long*, int) [clone .kd]",2,0,0,1482599,1482599,134217728,256,2048,0,8,8,16,64,0x0,0x7fa4a3deaf40,1959277,1959277,2097152,80216064,10203985,1306130380,2559404993799850,2559419495545026,2559419496867747,2559405002904695

@@ -1,0 +1,7 @@
+Matrix rows: 64; Seq Execution time: 0.000183 seconds
+Matrix rows: 128; Seq Execution time: 0.001761 seconds
+Matrix rows: 256; Seq Execution time: 0.015627 seconds
+Matrix rows: 512; Seq Execution time: 0.113060 seconds
+Matrix rows: 1024; Seq Execution time: 0.920368 seconds
+Matrix rows: 2048; Seq Execution time: 13.001336 seconds
+Matrix rows: 4096; Seq Execution time: 256.327926 seconds
