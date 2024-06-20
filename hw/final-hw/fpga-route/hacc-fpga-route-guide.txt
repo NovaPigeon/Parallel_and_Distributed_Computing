@@ -1,0 +1,24 @@
+# 复制代码到你自己的目录 （请使用pkuclass01账号的同学不要动这个压缩包）
+cp /home1/pkuclass01/fpga-route.tar.gz <your_path>
+
+# 解压
+tar -xzvf fpga-route.tar.gz
+
+# 编译
+cd fpga-route
+mkdir build
+cd build
+cmake ..
+make -j4
+
+# 环境配置
+source /home1/pkuclass01/opt/jdk-settings.sh
+export PATH=$PATH:/home1/pkuclass01/.local/bin
+export CMAKE_MAKE_PROGRAM=/home1/pkuclass01/.local/bin/ninja
+
+# 申请资源 （切记要申请资源，不要在本机直接执行）
+salloc -N 1 -n 1 -t 00:30:00
+
+# 运行用例 （你可以使用/benchmark中提供的用例）
+cd <your_path>/fpga-route
+make run-bench BENCHMARKS=boom_med_pb

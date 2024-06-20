@@ -1,0 +1,98 @@
+02:58:29.277 ace.utils [WARN] Reuse previously unzipped xcvu3p.device.ungzip
+02:58:29.774 ace.device [INFO] Read DeviceResources: 0.17s, 4.20GB RAM
+02:58:30.531 ace.device [INFO] Build 208370 tiles with 197 types and 98808 wires: 0.76s, 4.28GB RAM
+02:58:38.928 ace.device [INFO] Build 28226432 nodes: 8.40s, 13.39GB RAM
+02:58:43.881 ace.graph [INFO] Build 28226432 node info: 4.90s, 18.23GB RAM
+02:58:43.904 ace.graph [INFO] Build 82706 sites and 30867 (24474) pins: 0.02s, 18.24GB RAM
+02:58:44.013 ace.utils [WARN] Reuse previously unzipped benchmarks/corescore_500_unrouted.phys.ungzip
+02:58:47.122 ace.route [INFO] Build 178586/241644 nets, 213958 sources, 590363 sinks: 3.11s
+02:58:48.123 ace.route [INFO] Initialize 143214 nets to route and 16487 nets preserved
+02:58:48.149 ace.route [INFO] Create 488512 connections, 0 direct, 488512 indirect
+02:58:48.209 ace.route [INFO] 
+02:58:48.209 ace.route [INFO] ============ Iteration 1 ============
+02:59:09.228 ace.route [INFO] Routed connections: 488512/488512
+02:59:09.228 ace.route [INFO] Nodes with overlaps: 179010
+02:59:09.228 ace.route [INFO] Nodes pushed: 78271796 (160.22/conn)
+02:59:09.228 ace.route [INFO] Nodes popped: 59269915 (121.33/conn)
+02:59:09.228 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:09.301 ace.route [INFO] Congested connections: 310591
+02:59:09.301 ace.route [INFO] Time (s): 21.0926 | RAM (GB): 25.5634
+02:59:09.301 ace.route [INFO] ============ Iteration 2 ============
+02:59:24.447 ace.route [INFO] Routed connections: 267751/488512
+02:59:24.447 ace.route [INFO] Nodes with overlaps: 87534
+02:59:24.447 ace.route [INFO] Nodes pushed: 68586571 (256.16/conn)
+02:59:24.447 ace.route [INFO] Nodes popped: 56451538 (210.84/conn)
+02:59:24.447 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:24.545 ace.route [INFO] Congested connections: 194858
+02:59:24.545 ace.route [INFO] Time (s): 15.2433 | RAM (GB): 25.986
+02:59:24.545 ace.route [INFO] ============ Iteration 3 ============
+02:59:37.026 ace.route [INFO] Routed connections: 161977/488512
+02:59:37.026 ace.route [INFO] Nodes with overlaps: 29017
+02:59:37.026 ace.route [INFO] Nodes pushed: 58740748 (362.65/conn)
+02:59:37.026 ace.route [INFO] Nodes popped: 49418092 (305.09/conn)
+02:59:37.026 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:37.113 ace.route [INFO] Congested connections: 85028
+02:59:37.113 ace.route [INFO] Time (s): 12.5682 | RAM (GB): 26.2181
+02:59:37.113 ace.route [INFO] ============ Iteration 4 ============
+02:59:44.322 ace.route [INFO] Routed connections: 63700/488512
+02:59:44.322 ace.route [INFO] Nodes with overlaps: 4111
+02:59:44.322 ace.route [INFO] Nodes pushed: 30751714 (482.76/conn)
+02:59:44.322 ace.route [INFO] Nodes popped: 25982454 (407.89/conn)
+02:59:44.322 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:44.408 ace.route [INFO] Congested connections: 17756
+02:59:44.408 ace.route [INFO] Time (s): 7.2952 | RAM (GB): 26.3313
+02:59:44.408 ace.route [INFO] ============ Iteration 5 ============
+02:59:46.069 ace.route [INFO] Routed connections: 12967/488512
+02:59:46.069 ace.route [INFO] Nodes with overlaps: 292
+02:59:46.069 ace.route [INFO] Nodes pushed: 6701538 (516.81/conn)
+02:59:46.069 ace.route [INFO] Nodes popped: 5656403 (436.22/conn)
+02:59:46.069 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:46.153 ace.route [INFO] Congested connections: 3015
+02:59:46.153 ace.route [INFO] Time (s): 1.74436 | RAM (GB): 26.3509
+02:59:46.153 ace.route [INFO] ============ Iteration 6 ============
+02:59:46.582 ace.route [INFO] Routed connections: 2486/488512
+02:59:46.582 ace.route [INFO] Nodes with overlaps: 62
+02:59:46.582 ace.route [INFO] Nodes pushed: 897597 (361.06/conn)
+02:59:46.582 ace.route [INFO] Nodes popped: 697281 (280.48/conn)
+02:59:46.582 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:46.666 ace.route [INFO] Congested connections: 1070
+02:59:46.666 ace.route [INFO] Time (s): 0.513423 | RAM (GB): 26.3535
+02:59:46.666 ace.route [INFO] ============ Iteration 7 ============
+02:59:46.980 ace.route [INFO] Routed connections: 776/488512
+02:59:46.980 ace.route [INFO] Nodes with overlaps: 10
+02:59:46.980 ace.route [INFO] Nodes pushed: 328658 (423.53/conn)
+02:59:46.980 ace.route [INFO] Nodes popped: 243683 (314.02/conn)
+02:59:46.980 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:47.063 ace.route [INFO] Congested connections: 235
+02:59:47.063 ace.route [INFO] Time (s): 0.396958 | RAM (GB): 26.3539
+02:59:47.063 ace.route [INFO] ============ Iteration 8 ============
+02:59:47.344 ace.route [INFO] Routed connections: 209/488512
+02:59:47.344 ace.route [INFO] Nodes with overlaps: 1
+02:59:47.344 ace.route [INFO] Nodes pushed: 117606 (562.71/conn)
+02:59:47.344 ace.route [INFO] Nodes popped: 86167 (412.28/conn)
+02:59:47.344 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:47.428 ace.route [INFO] Congested connections: 6
+02:59:47.428 ace.route [INFO] Time (s): 0.364478 | RAM (GB): 26.3539
+02:59:47.428 ace.route [INFO] ============ Iteration 9 ============
+02:59:47.687 ace.route [INFO] Routed connections: 6/488512
+02:59:47.687 ace.route [INFO] Nodes with overlaps: 0
+02:59:47.687 ace.route [INFO] Nodes pushed: 1390 (231.67/conn)
+02:59:47.687 ace.route [INFO] Nodes popped: 983 (163.83/conn)
+02:59:47.687 ace.route [INFO] Children skipped: 0 (0.00/conn)
+02:59:47.771 ace.route [INFO] Congested connections: 0
+02:59:47.771 ace.route [INFO] 
+02:59:47.771 ace.route [INFO] Route indirect connections success
+02:59:47.771 ace.route [INFO] ------------------------------
+02:59:47.771 ace.route [INFO] Num iterations:              9
+02:59:47.771 ace.route [INFO] Connections routed:     998384
+02:59:47.771 ace.route [INFO] Nodes pushed:        244397618
+02:59:47.771 ace.route [INFO] Nodes popped:        197806516
+02:59:47.771 ace.route [INFO] ------------------------------
+02:59:48.094 ace.route [INFO] 
+02:59:48.094 ace.route [INFO] Route 0 direct connections
+02:59:48.095 ace.route [INFO] Time (s): 2.8072e-05 | RAM (GB): 26.3568
+02:59:48.095 ace.route [INFO] 
+02:59:48.487 ace.route [INFO] Route time (s): 60.2784
+03:00:02.568 ace.route [INFO] Insert 2358820 PIPs and 5573 strings: 12.490582s
+03:00:10.566 ace.route [INFO] Write to gzip file: 7.998682s
+03:00:10.570 ace.main [INFO] Elapsed time (s): 101

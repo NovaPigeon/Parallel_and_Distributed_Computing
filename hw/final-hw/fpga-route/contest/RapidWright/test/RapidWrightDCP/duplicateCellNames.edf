@@ -1,0 +1,49 @@
+(edif test
+  (edifversion 2 0 0)
+  (edifLevel 0)
+  (keywordmap (keywordlevel 0))
+(status
+ (written
+  (timeStamp 2022 07 04 17 02 25)
+  (program "RapidWright" (version "2022.1.1"))
+ )
+)
+  (Library hdi_primitives
+    (edifLevel 0)
+    (technology (numberDefinition ))
+  )
+  (Library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell (rename renameA "duplicate") (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+        (port portA (direction INPUT))
+       )
+     )
+   )
+   (cell (rename renameB "duplicate") (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+        (port portB (direction INPUT))
+       )
+     )
+   )
+   (cell myTestCell (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+       )
+       (contents
+         (instance instA (viewref netlist (cellref renameA (libraryref work))))
+         (instance instB (viewref netlist (cellref renameB (libraryref work))))
+       )
+     )
+   )
+  )
+(comment "Reference To The Cell Of Highest Level")
+
+  (design test
+    (cellref myTestCell (libraryref work))
+    (property PART (string "xc7a12t"))
+  )
+)

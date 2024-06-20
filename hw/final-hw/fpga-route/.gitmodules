@@ -1,0 +1,6 @@
+[submodule "extern/taskflow"]
+	path = extern/taskflow
+	url = https://github.com/taskflow/taskflow
+[submodule "contest"]
+	path = contest
+	url = https://github.com/Xilinx/fpga24_routing_contest

@@ -1,0 +1,40 @@
+#ifndef INTENTCODE_H
+#define INTENTCODE_H
+
+#include <string>
+
+enum class IntentCode {
+  INTENT_DEFAULT,
+  NODE_CLE_OUTPUT,
+  NODE_DEDICATED,
+  NODE_DOUBLE,
+  NODE_GLOBAL_BUFG,
+  NODE_GLOBAL_HDISTR,
+  NODE_GLOBAL_HROUTE,
+  NODE_GLOBAL_LEAF,
+  NODE_GLOBAL_VDISTR,
+  NODE_GLOBAL_VROUTE,
+  NODE_HLONG,
+  NODE_HQUAD,
+  NODE_INT_INTERFACE,
+  NODE_LAGUNA_DATA,
+  NODE_LAGUNA_OUTPUT,
+  NODE_LOCAL,
+  NODE_OPTDELAY,
+  NODE_OUTPUT,
+  NODE_PINBOUNCE,
+  NODE_PINFEED,
+  NODE_SINGLE,
+  NODE_VLONG,
+  NODE_VQUAD,
+  // extra wire types in FPGA'24
+  // see https://xilinx.github.io/fpga24_routing_contest/score.html
+  NODE_HDOUBLE, // is a NODE_DOUBLE
+  NODE_HSINGLE, // is a NODE_SINGLE
+  NODE_VDOUBLE, // is a NODE_DOUBLE
+  NODE_VSINGLE, // is a NODE_SINGLE
+};
+
+const std::string &enum_string(IntentCode code);
+
+#endif // INTENTCODE_H

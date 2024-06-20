@@ -1,0 +1,837 @@
+begin block
+  name pblock2
+  pblocks 1
+  clocks 1
+  inputs 34
+  outputs 32
+
+  begin pblock
+    name pe_pblock_1 
+    grid_ranges RAMB36_X11Y47:RAMB36_X11Y47 RAMB18_X11Y94:RAMB18_X11Y95 SLICE_X157Y235:SLICE_X160Y239
+  end pblock
+  begin clock
+    name clk 
+    period 2.850
+  end clock
+
+  begin input
+    name clk
+    netname clk
+    numprims 124
+    type input clock local
+    maxdelay 0.000
+    begin connections
+      pin in_port_reg[0]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin in_port_reg[1]/C SLICE_X159Y239 SLICE_X159Y239/CLK1
+      pin in_port_reg[2]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin in_port_reg[3]/C SLICE_X159Y239 SLICE_X159Y239/CLK1
+      pin in_port_reg[4]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin in_port_reg[5]/C SLICE_X160Y236 SLICE_X160Y236/CLK2
+      pin in_port_reg[6]/C SLICE_X159Y239 SLICE_X159Y239/CLK2
+      pin in_port_reg[7]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin output_port_w_reg[0]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_w_reg[1]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_w_reg[2]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_w_reg[3]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_w_reg[4]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_w_reg[5]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_w_reg[6]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_w_reg[7]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_x_reg[0]/C SLICE_X160Y236 SLICE_X160Y236/CLK2
+      pin output_port_x_reg[1]/C SLICE_X160Y236 SLICE_X160Y236/CLK2
+      pin output_port_x_reg[2]/C SLICE_X160Y236 SLICE_X160Y236/CLK2
+      pin output_port_x_reg[3]/C SLICE_X160Y237 SLICE_X160Y237/CLK1
+      pin output_port_x_reg[4]/C SLICE_X160Y237 SLICE_X160Y237/CLK1
+      pin output_port_x_reg[5]/C SLICE_X160Y237 SLICE_X160Y237/CLK1
+      pin output_port_x_reg[6]/C SLICE_X160Y236 SLICE_X160Y236/CLK2
+      pin output_port_x_reg[7]/C SLICE_X160Y237 SLICE_X160Y237/CLK1
+      pin output_port_y_reg[0]/C SLICE_X160Y235 SLICE_X160Y235/CLK2
+      pin output_port_y_reg[1]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_y_reg[2]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_y_reg[3]/C SLICE_X160Y235 SLICE_X160Y235/CLK2
+      pin output_port_y_reg[4]/C SLICE_X160Y235 SLICE_X160Y235/CLK2
+      pin output_port_y_reg[5]/C SLICE_X160Y235 SLICE_X160Y235/CLK2
+      pin output_port_y_reg[6]/C SLICE_X160Y237 SLICE_X160Y237/CLK2
+      pin output_port_y_reg[7]/C SLICE_X160Y235 SLICE_X160Y235/CLK2
+      pin output_port_z_reg[0]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin output_port_z_reg[1]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin output_port_z_reg[2]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_z_reg[3]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_z_reg[4]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_z_reg[5]/C SLICE_X160Y235 SLICE_X160Y235/CLK1
+      pin output_port_z_reg[6]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin output_port_z_reg[7]/C SLICE_X160Y236 SLICE_X160Y236/CLK1
+      pin processor/active_interrupt_flop/C SLICE_X159Y236 SLICE_X159Y236/CLK2
+      pin processor/address_loop[0].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK1
+      pin processor/address_loop[0].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/address_loop[10].pc_flop/C SLICE_X160Y239 SLICE_X160Y239/CLK1
+      pin processor/address_loop[10].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[11].pc_flop/C SLICE_X160Y239 SLICE_X160Y239/CLK1
+      pin processor/address_loop[11].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[1].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK1
+      pin processor/address_loop[1].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/address_loop[2].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK1
+      pin processor/address_loop[2].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/address_loop[3].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK1
+      pin processor/address_loop[3].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/address_loop[4].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK2
+      pin processor/address_loop[4].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[5].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK2
+      pin processor/address_loop[5].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[6].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK2
+      pin processor/address_loop[6].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[7].pc_flop/C SLICE_X160Y238 SLICE_X160Y238/CLK2
+      pin processor/address_loop[7].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[8].pc_flop/C SLICE_X160Y239 SLICE_X160Y239/CLK1
+      pin processor/address_loop[8].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/address_loop[9].pc_flop/C SLICE_X160Y239 SLICE_X160Y239/CLK1
+      pin processor/address_loop[9].return_vector_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK2
+      pin processor/alu_mux_sel0_flop/C SLICE_X158Y235 SLICE_X158Y235/CLK2
+      pin processor/alu_mux_sel1_flop/C SLICE_X159Y236 SLICE_X159Y236/CLK2
+      pin processor/arith_carry_flop/C SLICE_X159Y238 SLICE_X159Y238/CLK1
+      pin processor/bank_flop/C SLICE_X158Y235 SLICE_X158Y235/CLK1
+      pin processor/carry_flag_flop/C SLICE_X157Y236 SLICE_X157Y236/CLK2
+      pin processor/data_path_loop[0].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK1
+      pin processor/data_path_loop[0].low_hwbuild.shift_rotate_flop/C SLICE_X158Y239 SLICE_X158Y239/CLK1
+      pin processor/data_path_loop[0].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK2
+      pin processor/data_path_loop[1].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK1
+      pin processor/data_path_loop[1].low_hwbuild.shift_rotate_flop/C SLICE_X157Y239 SLICE_X157Y239/CLK1
+      pin processor/data_path_loop[1].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK2
+      pin processor/data_path_loop[2].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK1
+      pin processor/data_path_loop[2].low_hwbuild.shift_rotate_flop/C SLICE_X159Y238 SLICE_X159Y238/CLK2
+      pin processor/data_path_loop[2].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK2
+      pin processor/data_path_loop[3].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK1
+      pin processor/data_path_loop[3].low_hwbuild.shift_rotate_flop/C SLICE_X158Y239 SLICE_X158Y239/CLK2
+      pin processor/data_path_loop[3].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK2
+      pin processor/data_path_loop[4].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK2
+      pin processor/data_path_loop[4].low_hwbuild.shift_rotate_flop/C SLICE_X159Y238 SLICE_X159Y238/CLK2
+      pin processor/data_path_loop[4].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK1
+      pin processor/data_path_loop[5].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK2
+      pin processor/data_path_loop[5].low_hwbuild.shift_rotate_flop/C SLICE_X158Y239 SLICE_X158Y239/CLK1
+      pin processor/data_path_loop[5].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK1
+      pin processor/data_path_loop[6].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK2
+      pin processor/data_path_loop[6].low_hwbuild.shift_rotate_flop/C SLICE_X159Y238 SLICE_X159Y238/CLK2
+      pin processor/data_path_loop[6].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK1
+      pin processor/data_path_loop[7].arith_logical_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK2
+      pin processor/data_path_loop[7].low_hwbuild.shift_rotate_flop/C SLICE_X158Y239 SLICE_X158Y239/CLK2
+      pin processor/data_path_loop[7].small_spm.spm_flop/C SLICE_X158Y237 SLICE_X158Y237/CLK1
+      pin processor/flag_enable_flop/C SLICE_X157Y237 SLICE_X157Y237/CLK2
+      pin processor/internal_reset_flop/C SLICE_X159Y235 SLICE_X159Y235/CLK1
+      pin processor/interrupt_enable_flop/C SLICE_X159Y235 SLICE_X159Y235/CLK2
+      pin processor/register_enable_flop/C SLICE_X157Y237 SLICE_X157Y237/CLK1
+      pin processor/run_flop/C SLICE_X159Y235 SLICE_X159Y235/CLK1
+      pin processor/shadow_bank_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/shadow_carry_flag_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/shadow_zero_flag_flop/C SLICE_X159Y237 SLICE_X159Y237/CLK2
+      pin processor/shift_carry_flop/C SLICE_X157Y238 SLICE_X157Y238/CLK1
+      pin processor/spm_enable_flop/C SLICE_X160Y237 SLICE_X160Y237/CLK1
+      pin processor/stack_bit_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/stack_loop[0].lsb_stack.pointer_flop/C SLICE_X157Y235 SLICE_X157Y235/CLK1
+      pin processor/stack_loop[1].upper_stack.pointer_flop/C SLICE_X157Y235 SLICE_X157Y235/CLK1
+      pin processor/stack_loop[2].upper_stack.pointer_flop/C SLICE_X157Y235 SLICE_X157Y235/CLK1
+      pin processor/stack_loop[3].upper_stack.pointer_flop/C SLICE_X157Y235 SLICE_X157Y235/CLK1
+      pin processor/stack_loop[4].upper_stack.pointer_flop/C SLICE_X157Y235 SLICE_X157Y235/CLK2
+      pin processor/stack_zero_flop/C SLICE_X158Y238 SLICE_X158Y238/CLK1
+      pin processor/sx_addr4_flop/C SLICE_X158Y235 SLICE_X158Y235/CLK2
+      pin processor/t_state1_flop/C SLICE_X157Y238 SLICE_X157Y238/CLK2
+      pin processor/t_state2_flop/C SLICE_X157Y238 SLICE_X157Y238/CLK1
+      pin processor/use_zero_flag_flop/C SLICE_X160Y236 SLICE_X160Y236/CLK2
+      pin processor/write_strobe_flop/C SLICE_X160Y237 SLICE_X160Y237/CLK1
+      pin processor/zero_flag_flop/C SLICE_X157Y236 SLICE_X157Y236/CLK1
+      pin processor/data_path_loop[0].small_spm.small_spm_ram.spm_ram/RAMA/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[0].small_spm.small_spm_ram.spm_ram/RAMB/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[0].small_spm.small_spm_ram.spm_ram/RAMC/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[0].small_spm.small_spm_ram.spm_ram/RAMD/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[4].small_spm.small_spm_ram.spm_ram/RAMA/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[4].small_spm.small_spm_ram.spm_ram/RAMB/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[4].small_spm.small_spm_ram.spm_ram/RAMC/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/data_path_loop[4].small_spm.small_spm_ram.spm_ram/RAMD/CLK SLICE_X158Y237 SLICE_X158Y237/LCLK
+      pin processor/lower_reg_banks/RAMA/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMA_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMB/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMB_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMC/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMC_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMD/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/lower_reg_banks/RAMD_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/stack_ram_high/RAMA/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMA_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMB/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMB_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMC/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMC_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMD/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_high/RAMD_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMA/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMA_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMB/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMB_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMC/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMC_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMD/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/stack_ram_low/RAMD_D1/CLK SLICE_X158Y238 SLICE_X158Y238/LCLK
+      pin processor/upper_reg_banks/RAMA/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMA_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMB/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMB_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMC/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMC_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMD/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin processor/upper_reg_banks/RAMD_D1/CLK SLICE_X158Y236 SLICE_X158Y236/LCLK
+      pin your_program/ram_4096x8/CLKARDCLK RAMB36_X11Y47 RAMB36_X11Y47/CLKAL RAMB36_X11Y47/CLKAU
+    end connections
+  end input
+  begin input
+    name input_port_a[0]
+    netname input_port_a[0]
+    numprims 1
+    type input signal
+    maxdelay 0.171
+    begin connections
+      pin processor/in_port[0]_i_1/I1 SLICE_X160Y236 SLICE_X160Y236/D2
+    end connections
+  end input
+  begin input
+    name input_port_a[1]
+    netname input_port_a[1]
+    numprims 1
+    type input signal
+    maxdelay 0.173
+    begin connections
+      pin processor/in_port[1]_i_1/I1 SLICE_X159Y239 SLICE_X159Y239/C2
+    end connections
+  end input
+  begin input
+    name input_port_a[2]
+    netname input_port_a[2]
+    numprims 1
+    type input signal
+    maxdelay 0.173
+    begin connections
+      pin processor/in_port[2]_i_1/I1 SLICE_X160Y236 SLICE_X160Y236/C2
+    end connections
+  end input
+  begin input
+    name input_port_a[3]
+    netname input_port_a[3]
+    numprims 1
+    type input signal
+    maxdelay 0.173
+    begin connections
+      pin processor/in_port[3]_i_1/I1 SLICE_X159Y239 SLICE_X159Y239/B2
+    end connections
+  end input
+  begin input
+    name input_port_a[4]
+    netname input_port_a[4]
+    numprims 1
+    type input signal
+    maxdelay 0.173
+    begin connections
+      pin processor/in_port[4]_i_1/I1 SLICE_X160Y236 SLICE_X160Y236/B2
+    end connections
+  end input
+  begin input
+    name input_port_a[5]
+    netname input_port_a[5]
+    numprims 1
+    type input signal
+    maxdelay 0.175
+    begin connections
+      pin processor/in_port[5]_i_1/I1 SLICE_X160Y236 SLICE_X160Y236/H2
+    end connections
+  end input
+  begin input
+    name input_port_a[6]
+    netname input_port_a[6]
+    numprims 1
+    type input signal
+    maxdelay 0.171
+    begin connections
+      pin processor/in_port[6]_i_1/I1 SLICE_X159Y239 SLICE_X159Y239/G2
+    end connections
+  end input
+  begin input
+    name input_port_a[7]
+    netname input_port_a[7]
+    numprims 1
+    type input signal
+    maxdelay 0.172
+    begin connections
+      pin processor/in_port[7]_i_1/I1 SLICE_X160Y236 SLICE_X160Y236/A2
+    end connections
+  end input
+  begin input
+    name input_port_b[0]
+    netname input_port_b[0]
+    numprims 1
+    type input signal
+    maxdelay 0.195
+    begin connections
+      pin processor/in_port[0]_i_1/I0 SLICE_X160Y236 SLICE_X160Y236/D1
+    end connections
+  end input
+  begin input
+    name input_port_b[1]
+    netname input_port_b[1]
+    numprims 1
+    type input signal
+    maxdelay 0.196
+    begin connections
+      pin processor/in_port[1]_i_1/I0 SLICE_X159Y239 SLICE_X159Y239/C1
+    end connections
+  end input
+  begin input
+    name input_port_b[2]
+    netname input_port_b[2]
+    numprims 1
+    type input signal
+    maxdelay 0.196
+    begin connections
+      pin processor/in_port[2]_i_1/I0 SLICE_X160Y236 SLICE_X160Y236/C1
+    end connections
+  end input
+  begin input
+    name input_port_b[3]
+    netname input_port_b[3]
+    numprims 1
+    type input signal
+    maxdelay 0.197
+    begin connections
+      pin processor/in_port[3]_i_1/I0 SLICE_X159Y239 SLICE_X159Y239/B1
+    end connections
+  end input
+  begin input
+    name input_port_b[4]
+    netname input_port_b[4]
+    numprims 1
+    type input signal
+    maxdelay 0.197
+    begin connections
+      pin processor/in_port[4]_i_1/I0 SLICE_X160Y236 SLICE_X160Y236/B1
+    end connections
+  end input
+  begin input
+    name input_port_b[5]
+    netname input_port_b[5]
+    numprims 1
+    type input signal
+    maxdelay 0.201
+    begin connections
+      pin processor/in_port[5]_i_1/I0 SLICE_X160Y236 SLICE_X160Y236/H1
+    end connections
+  end input
+  begin input
+    name input_port_b[6]
+    netname input_port_b[6]
+    numprims 1
+    type input signal
+    maxdelay 0.197
+    begin connections
+      pin processor/in_port[6]_i_1/I0 SLICE_X159Y239 SLICE_X159Y239/G1
+    end connections
+  end input
+  begin input
+    name input_port_b[7]
+    netname input_port_b[7]
+    numprims 1
+    type input signal
+    maxdelay 0.197
+    begin connections
+      pin processor/in_port[7]_i_1/I0 SLICE_X160Y236 SLICE_X160Y236/A1
+    end connections
+  end input
+  begin input
+    name input_port_c[0]
+    netname input_port_c[0]
+    numprims 1
+    type input signal
+    maxdelay 0.085
+    begin connections
+      pin processor/in_port[0]_i_1/I5 SLICE_X160Y236 SLICE_X160Y236/D6
+    end connections
+  end input
+  begin input
+    name input_port_c[1]
+    netname input_port_c[1]
+    numprims 1
+    type input signal
+    maxdelay 0.085
+    begin connections
+      pin processor/in_port[1]_i_1/I5 SLICE_X159Y239 SLICE_X159Y239/C6
+    end connections
+  end input
+  begin input
+    name input_port_c[2]
+    netname input_port_c[2]
+    numprims 1
+    type input signal
+    maxdelay 0.085
+    begin connections
+      pin processor/in_port[2]_i_1/I5 SLICE_X160Y236 SLICE_X160Y236/C6
+    end connections
+  end input
+  begin input
+    name input_port_c[3]
+    netname input_port_c[3]
+    numprims 1
+    type input signal
+    maxdelay 0.085
+    begin connections
+      pin processor/in_port[3]_i_1/I5 SLICE_X159Y239 SLICE_X159Y239/B6
+    end connections
+  end input
+  begin input
+    name input_port_c[4]
+    netname input_port_c[4]
+    numprims 1
+    type input signal
+    maxdelay 0.085
+    begin connections
+      pin processor/in_port[4]_i_1/I5 SLICE_X160Y236 SLICE_X160Y236/B6
+    end connections
+  end input
+  begin input
+    name input_port_c[5]
+    netname input_port_c[5]
+    numprims 1
+    type input signal
+    maxdelay 0.087
+    begin connections
+      pin processor/in_port[5]_i_1/I5 SLICE_X160Y236 SLICE_X160Y236/H6
+    end connections
+  end input
+  begin input
+    name input_port_c[6]
+    netname input_port_c[6]
+    numprims 1
+    type input signal
+    maxdelay 0.083
+    begin connections
+      pin processor/in_port[6]_i_1/I5 SLICE_X159Y239 SLICE_X159Y239/G6
+    end connections
+  end input
+  begin input
+    name input_port_c[7]
+    netname input_port_c[7]
+    numprims 1
+    type input signal
+    maxdelay 0.083
+    begin connections
+      pin processor/in_port[7]_i_1/I5 SLICE_X160Y236 SLICE_X160Y236/A6
+    end connections
+  end input
+  begin input
+    name input_port_d[0]
+    netname input_port_d[0]
+    numprims 1
+    type input signal
+    maxdelay 0.148
+    begin connections
+      pin processor/in_port[0]_i_1/I2 SLICE_X160Y236 SLICE_X160Y236/D3
+    end connections
+  end input
+  begin input
+    name input_port_d[1]
+    netname input_port_d[1]
+    numprims 1
+    type input signal
+    maxdelay 0.146
+    begin connections
+      pin processor/in_port[1]_i_1/I2 SLICE_X159Y239 SLICE_X159Y239/C3
+    end connections
+  end input
+  begin input
+    name input_port_d[2]
+    netname input_port_d[2]
+    numprims 1
+    type input signal
+    maxdelay 0.146
+    begin connections
+      pin processor/in_port[2]_i_1/I2 SLICE_X160Y236 SLICE_X160Y236/C3
+    end connections
+  end input
+  begin input
+    name input_port_d[3]
+    netname input_port_d[3]
+    numprims 1
+    type input signal
+    maxdelay 0.147
+    begin connections
+      pin processor/in_port[3]_i_1/I2 SLICE_X159Y239 SLICE_X159Y239/B3
+    end connections
+  end input
+  begin input
+    name input_port_d[4]
+    netname input_port_d[4]
+    numprims 1
+    type input signal
+    maxdelay 0.147
+    begin connections
+      pin processor/in_port[4]_i_1/I2 SLICE_X160Y236 SLICE_X160Y236/B3
+    end connections
+  end input
+  begin input
+    name input_port_d[5]
+    netname input_port_d[5]
+    numprims 1
+    type input signal
+    maxdelay 0.150
+    begin connections
+      pin processor/in_port[5]_i_1/I2 SLICE_X160Y236 SLICE_X160Y236/H3
+    end connections
+  end input
+  begin input
+    name input_port_d[6]
+    netname input_port_d[6]
+    numprims 1
+    type input signal
+    maxdelay 0.145
+    begin connections
+      pin processor/in_port[6]_i_1/I2 SLICE_X159Y239 SLICE_X159Y239/G3
+    end connections
+  end input
+  begin input
+    name input_port_d[7]
+    netname input_port_d[7]
+    numprims 1
+    type input signal
+    maxdelay 0.146
+    begin connections
+      pin processor/in_port[7]_i_1/I2 SLICE_X160Y236 SLICE_X160Y236/A3
+    end connections
+  end input
+  begin input
+    name reset
+    netname reset
+    numprims 1
+    type input signal
+    maxdelay 0.098
+    begin connections
+      pin processor/reset_lut/LUT5/I4 SLICE_X159Y235 SLICE_X159Y235/A5
+      pin processor/reset_lut/LUT6/I4 SLICE_X159Y235 SLICE_X159Y235/A5
+    end connections
+  end input
+
+  begin output
+    name output_port_w[0]
+    netname output_port_w[0]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_w_reg[0]/Q SLICE_X160Y237 SLICE_X160Y237/HQ2
+    end connections
+  end output
+  begin output
+    name output_port_w[1]
+    netname output_port_w[1]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_w_reg[1]/Q SLICE_X160Y237 SLICE_X160Y237/GQ2
+    end connections
+  end output
+  begin output
+    name output_port_w[2]
+    netname output_port_w[2]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_w_reg[2]/Q SLICE_X160Y237 SLICE_X160Y237/FQ2
+    end connections
+  end output
+  begin output
+    name output_port_w[3]
+    netname output_port_w[3]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_w_reg[3]/Q SLICE_X160Y235 SLICE_X160Y235/CQ
+    end connections
+  end output
+  begin output
+    name output_port_w[4]
+    netname output_port_w[4]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_w_reg[4]/Q SLICE_X160Y235 SLICE_X160Y235/BQ
+    end connections
+  end output
+  begin output
+    name output_port_w[5]
+    netname output_port_w[5]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_w_reg[5]/Q SLICE_X160Y235 SLICE_X160Y235/AQ
+    end connections
+  end output
+  begin output
+    name output_port_w[6]
+    netname output_port_w[6]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_w_reg[6]/Q SLICE_X160Y235 SLICE_X160Y235/DQ
+    end connections
+  end output
+  begin output
+    name output_port_w[7]
+    netname output_port_w[7]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_w_reg[7]/Q SLICE_X160Y237 SLICE_X160Y237/EQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[0]
+    netname output_port_x[0]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_x_reg[0]/Q SLICE_X160Y236 SLICE_X160Y236/HQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[1]
+    netname output_port_x[1]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_x_reg[1]/Q SLICE_X160Y236 SLICE_X160Y236/GQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[2]
+    netname output_port_x[2]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_x_reg[2]/Q SLICE_X160Y236 SLICE_X160Y236/FQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[3]
+    netname output_port_x[3]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_x_reg[3]/Q SLICE_X160Y237 SLICE_X160Y237/BQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[4]
+    netname output_port_x[4]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_x_reg[4]/Q SLICE_X160Y237 SLICE_X160Y237/DQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[5]
+    netname output_port_x[5]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_x_reg[5]/Q SLICE_X160Y237 SLICE_X160Y237/CQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[6]
+    netname output_port_x[6]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_x_reg[6]/Q SLICE_X160Y236 SLICE_X160Y236/EQ2
+    end connections
+  end output
+  begin output
+    name output_port_x[7]
+    netname output_port_x[7]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_x_reg[7]/Q SLICE_X160Y237 SLICE_X160Y237/AQ2
+    end connections
+  end output
+  begin output
+    name output_port_y[0]
+    netname output_port_y[0]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_y_reg[0]/Q SLICE_X160Y235 SLICE_X160Y235/HQ
+    end connections
+  end output
+  begin output
+    name output_port_y[1]
+    netname output_port_y[1]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_y_reg[1]/Q SLICE_X160Y237 SLICE_X160Y237/HQ
+    end connections
+  end output
+  begin output
+    name output_port_y[2]
+    netname output_port_y[2]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_y_reg[2]/Q SLICE_X160Y237 SLICE_X160Y237/GQ
+    end connections
+  end output
+  begin output
+    name output_port_y[3]
+    netname output_port_y[3]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_y_reg[3]/Q SLICE_X160Y235 SLICE_X160Y235/GQ2
+    end connections
+  end output
+  begin output
+    name output_port_y[4]
+    netname output_port_y[4]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_y_reg[4]/Q SLICE_X160Y235 SLICE_X160Y235/FQ2
+    end connections
+  end output
+  begin output
+    name output_port_y[5]
+    netname output_port_y[5]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_y_reg[5]/Q SLICE_X160Y235 SLICE_X160Y235/EQ2
+    end connections
+  end output
+  begin output
+    name output_port_y[6]
+    netname output_port_y[6]
+    numprims 1
+    type output signal
+    maxdelay 0.079
+    begin connections
+      pin output_port_y_reg[6]/Q SLICE_X160Y237 SLICE_X160Y237/FQ
+    end connections
+  end output
+  begin output
+    name output_port_y[7]
+    netname output_port_y[7]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_y_reg[7]/Q SLICE_X160Y235 SLICE_X160Y235/HQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[0]
+    netname output_port_z[0]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_z_reg[0]/Q SLICE_X160Y236 SLICE_X160Y236/DQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[1]
+    netname output_port_z[1]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_z_reg[1]/Q SLICE_X160Y236 SLICE_X160Y236/CQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[2]
+    netname output_port_z[2]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_z_reg[2]/Q SLICE_X160Y235 SLICE_X160Y235/DQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[3]
+    netname output_port_z[3]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_z_reg[3]/Q SLICE_X160Y235 SLICE_X160Y235/CQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[4]
+    netname output_port_z[4]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_z_reg[4]/Q SLICE_X160Y235 SLICE_X160Y235/BQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[5]
+    netname output_port_z[5]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_z_reg[5]/Q SLICE_X160Y235 SLICE_X160Y235/AQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[6]
+    netname output_port_z[6]
+    numprims 1
+    type output signal
+    maxdelay 0.080
+    begin connections
+      pin output_port_z_reg[6]/Q SLICE_X160Y236 SLICE_X160Y236/BQ2
+    end connections
+  end output
+  begin output
+    name output_port_z[7]
+    netname output_port_z[7]
+    numprims 1
+    type output signal
+    maxdelay 0.081
+    begin connections
+      pin output_port_z_reg[7]/Q SLICE_X160Y236 SLICE_X160Y236/AQ2
+    end connections
+  end output
+
+end block

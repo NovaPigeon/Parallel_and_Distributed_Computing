@@ -1,0 +1,26 @@
+(edif aaaaaaaaaaaaaaaaaaaaaaaaa
+  (edifversion 2 0 0)
+  (edifLevel 0)
+  (keywordmap (keywordlevel 0))
+(status
+ (written
+  (timeStamp 2022 01 27 12 52 52)
+  (program "Vivado" (version "2021.2"))
+  (comment "Built on 'Tue Oct 19 02:47:39 MDT 2021'")
+  (comment "Built by 'xbuild'")
+ )
+)
+  (Library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell c000 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+   (cell c001 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+   (cell (rename e "(cell a (celltype GENERIC)(view x(viewtype NETLIST)(interface)))(cell (rename x ") (celltype GENERIC)(view (rename aVeryLongNameToConfuseOurQuoteDetectionAlgoThatMayBeConfusedByNamesThatAreTooLongJustLikeThis ")(celltype GENERIC)(view (rename x ") (viewtype NETLIST)(interface)))
+   (cell (rename f ")(viewtype NETLIST)(interface)))(cell b (celltype GENERIC)(view x(viewtype NETLIST)(interface)))") (celltype GENERIC)(view (rename aVeryLongNameToConfuseOurQuoteDetectionAlgoThatMayBeConfusedByNamesThatAreTooLongJustLikeThis "()()()()()()()()()()()()()()()") (viewtype NETLIST)(interface)))
+   (cell c002 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+   (cell c003 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+   (cell c004 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+   (cell c005 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+   (cell c006 (celltype GENERIC)(view x(viewtype NETLIST)(interface)))
+
+))

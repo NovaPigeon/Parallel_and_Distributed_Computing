@@ -1,0 +1,6 @@
+[submodule "hw/final-hw/contest"]
+	path = hw/final-hw/contest
+	url = https://github.com/Xilinx/fpga24_routing_contest
+[submodule "hw/final-hw/extern/taskflow"]
+	path = hw/final-hw/extern/taskflow
+	url = https://github.com/taskflow/taskflow
